@@ -50,13 +50,12 @@ form > button{
 }
 .alert-msj-success{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 2px solid green;
   border-radius: 10px;
   width: 260px;
-  background-color: beige;
+  background-color: greenyellow;
 }
 .alert-msj-danger{
   display: flex;
@@ -65,5 +64,5 @@ form > button{
   border: 2px solid red;
   border-radius: 10px;
   width: 260px;
-  background-color: #f2dede;
+  background-color: palevioletred;
 }

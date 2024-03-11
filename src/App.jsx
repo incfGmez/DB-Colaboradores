@@ -25,7 +25,7 @@ function App() {
     <main>
       <div className='contenedor-agregar'>
         <Formulario handleAlert={handleAlert} agregarColaborador={agregarColaborador} /> 
-        <Alert alertMessage={alertMessage} alertType={alertType} />
+        <Alert alertMessage={alertMessage} alertType={alertType}/>
       </div>
       <h1>Lista de Colaboradores</h1>
       <Buscador colaboradores={colaboradores} setColaboradoresFiltrados={setColaboradoresFiltrados} />
